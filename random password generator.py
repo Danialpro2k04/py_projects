@@ -11,6 +11,10 @@ selected_nums = list(random.choices(nums, k=4))
 alphas_cap = list(random.choices(capital_alphabets, k=2))
 alphas_low = list(random.choices(lower_alphabets, k=8))
 
+'''password will contain 2 special characters, 4 numbers,
+ 2 Upper case alphabets and 8 lower case alphabets
+'''
+
 password = special_char + selected_nums + alphas_cap + alphas_low
 random.shuffle(password)
 
