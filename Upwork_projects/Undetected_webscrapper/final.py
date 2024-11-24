@@ -133,7 +133,7 @@ try:
                         EC.element_to_be_clickable((By.XPATH, "//label[text()='Search area']/following-sibling::div//input"))))
                 except Exception:
                     pass
-                # Get 1st item in row
+               
                 search = driver.find_element(
                     By.XPATH, "//label[text()='Search area']/following-sibling::div//input")
                 search.click()
